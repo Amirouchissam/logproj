@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Logs générés
+logs/
+
+# Dashboard généré
+serving/dashboard.html
+serving/dashboard.png
+serving/chart*.png
+
+# Cache géolocalisation
+data/geo_cache.json
+
+# Data sensible
+data/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# uv lock (optionnel selon préférence équipe)
+# uv.lock
